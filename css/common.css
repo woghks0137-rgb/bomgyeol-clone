@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+:root {
+    /* color */
+    --color-main: #f5efe6;
+    --color-sub: #52463a;
+    --color-beige: #beb3a7;
+    --color-white: #fff;
+    --color-black: #191919;
+    --color-gray: #a8a5a3;
+
+    /* font */
+    --font-ko: 'Pretendard', sans-serif;
+    --font-en: "Tenor Sans", sans-serif;
+
+    /* title */
+    --fs-page-title: 72px;
+    --fs-section-title: 48px;
+    --fs-card-title: 36px;
+
+    /* body */
+    --fs-body-lg: 24px;
+    --fs-body-md: 18px;
+    --fs-body-sm: 16px;
+    --fs-body-desc: 20px;
+
+    /* eyebrow */
+    --fs-eyebrow-lg: 14px;
+    --fs-eyebrow-md: 18px;
+    --fs-eyebrow-sm: 20px;
+}
+
+body {
+    font-family: var(--font-ko);
+}
+
+.eyebrow {
+    font-family: var(--font-en);
+}
+
+.page-title {
+    font-size: var(--fs-page-title);
+}
+
+.section-title {
+    font-size: var(--fs-section-title);
+}
+
+.card-title {
+    font-size: var(--fs-card-title);
+}
